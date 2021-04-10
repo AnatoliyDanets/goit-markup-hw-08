@@ -91,8 +91,8 @@
   align-items: center;
   font-weight: normal;
   font-size: 12px;
-  line-height: 1.71;
-  letter-spacing: unset;
+  line-height: 1.16;
+  letter-spacing: 0.03;
 
   color: var(--primary-text-color);
   &::before {
@@ -122,13 +122,14 @@
   }
   @media screen and (min-width: 1200px) {
     font-size: 14px;
+    line-height: 1.71;
   }
 }
 
 .form-modal__agree-link {
   font-weight: normal;
   font-size: 12px;
-  line-height: 1.71;
+  line-height: 1.16;
   letter-spacing: 0.01em;
   color: var(--accent-text-color);
   display: inline-block;
@@ -140,6 +141,7 @@
   }
   @media screen and (min-width: 1200px) {
     font-size: 14px;
+    line-height: 1.71;
   }
 }
 

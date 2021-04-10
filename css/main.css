@@ -201,8 +201,7 @@ img {
 
 .modal {
   position: absolute;
-  min-width: 100%;
-  min-height: 100%;
+  width: 100%;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%) rotateY(0deg);
@@ -221,16 +220,14 @@ img {
 
 @media screen and (min-width: 480px) {
   .modal {
-    min-width: 450px;
-    min-height: 609px;
+    width: 450px;
     overflow-y: unset;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .modal {
-    min-width: 528px;
-    min-height: 581px;
+    width: 528px;
   }
 }
 
@@ -421,8 +418,8 @@ img {
           align-items: center;
   font-weight: normal;
   font-size: 12px;
-  line-height: 1.71;
-  letter-spacing: unset;
+  line-height: 1.16;
+  letter-spacing: 0.03;
   color: var(--primary-text-color);
 }
 
@@ -461,13 +458,14 @@ img {
 @media screen and (min-width: 1200px) {
   .form-modal__label-checkbox {
     font-size: 14px;
+    line-height: 1.71;
   }
 }
 
 .form-modal__agree-link {
   font-weight: normal;
   font-size: 12px;
-  line-height: 1.71;
+  line-height: 1.16;
   letter-spacing: 0.01em;
   color: var(--accent-text-color);
   display: inline-block;
@@ -483,6 +481,7 @@ img {
 @media screen and (min-width: 1200px) {
   .form-modal__agree-link {
     font-size: 14px;
+    line-height: 1.71;
   }
 }
 
