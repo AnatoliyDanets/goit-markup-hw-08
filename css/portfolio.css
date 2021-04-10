@@ -612,12 +612,6 @@ img {
   }
 }
 
-@media screen and (min-width: 1200px) {
-  .project__item:not(:last-child) {
-    margin-bottom: 0;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .project__item {
     width: 354px;
