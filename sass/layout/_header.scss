@@ -149,7 +149,8 @@
   color: #757575;
 }
 .mobile-social {
-  display: flex;
+  display: inline-flex;
+  flex-wrap: wrap;
 }
 .mobile-social__item {
   &:not(:last-child) {
